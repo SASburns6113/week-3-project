@@ -34,7 +34,7 @@ int main()
 			break;
 		}
 		//tests if the shot was to high
-		else if (targetLocationPrediction > enemyLocation) {
+		else if (targetLocationPrediction > enemyLocation) { 
 			cout << "Too high!\n\n";
 
 			searchGridHighNumber = --targetLocationPrediction;
